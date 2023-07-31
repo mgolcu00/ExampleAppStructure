@@ -11,4 +11,7 @@ dependencies {
 
     // dependecy injection dependency
     implementation(libs.javax.inject)
+
+    
+    implementation(libs.kotlinx.coroutines.core)
 }

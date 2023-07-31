@@ -8,8 +8,14 @@ java {
 }
 
 dependencies {
-    // dependecy injection dependency
+    // injection dependency
     implementation(libs.javax.inject)
+
+    // network client dependency
+    implementation(libs.ktor.client.core)
+
+
+    implementation(libs.kotlinx.coroutines.core)
 
     // domain module dependency
     implementation(project(":domain"))
